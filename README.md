@@ -1,2 +1,4 @@
-# FiveM-PoliceBoost
-Police Boost for FiveM. This will give any vehicle with flashing lights (class 18) a power multiplier to allow the vehicles to catch up to normal civilians. This can be overpowered on some vehicles. I wouldn't recommend using this is you have client side mods such as Lambda as those change the default speed of vehicles to make them faster somehow without any enabled settings? We used this with vMenu.
+# Police Boost
+- Eğer polis araçlarının aşırı hızlı veya aşırı yavaş olduğunu düşünüyorsan aşağıda gösterdiğim gibi değişterebilirsin.
+- policeboost/client.lua - SetVehicleEnginePowerMultiplier(GetVehiclePedIsIn(ped, false), 40.0) -
+- 40.0 yazan yeri hızlıysa düşürürsünüz, yavaş ise yükseltirsiniz.
